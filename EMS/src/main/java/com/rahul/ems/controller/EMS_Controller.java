@@ -572,28 +572,3 @@ public class EMS_Controller {
 	}
 
 }
-
-//
-//Employee employee = addEmployee();
-//Address address = addAddress();
-//address.setEmployee(employee);
-//
-//ArrayList<Project> projects = new ArrayList<Project>();
-//
-//Project project = null;
-//
-//ArrayList<Employee> employees = new ArrayList<Employee>();
-//employees.add(employee);
-//
-//System.out.print("\nHow many Project does this Employee has : ");
-//int count = scanner.nextInt();
-//for (int i = 0; i < count; i++) {
-//	project = addProject();
-//	projects.add(project);
-//	project.setEmployees(employees);
-//}
-//department.setEmployees(employees);
-//
-//employee.setAddress(address);
-//employee.setDepartment(department);
-//employee.setProjects(projects);
