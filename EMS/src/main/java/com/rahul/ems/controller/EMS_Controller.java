@@ -555,7 +555,6 @@ public class EMS_Controller {
 			}
 				break;
 			case 0: {
-
 				System.out.println("\nThank You...!");
 				scanner.close();
 				EmployeeDao.closeConnection();
