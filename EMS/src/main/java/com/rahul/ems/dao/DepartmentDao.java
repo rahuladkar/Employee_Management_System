@@ -71,4 +71,10 @@ public class DepartmentDao {
 
 	}
 
+	public static void closeConnection() {
+
+		entityManager.close();
+
+	}
+
 }

@@ -68,4 +68,11 @@ public class ProjectDao {
 		}
 
 	}
+
+	public static void closeConnection() {
+
+		entityManager.close();
+
+	}
+
 }

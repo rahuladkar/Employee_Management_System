@@ -70,4 +70,10 @@ public class EmployeeDao {
 
 	}
 
+	public static void closeConnection() {
+
+		entityManager.close();
+
+	}
+
 }

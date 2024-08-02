@@ -67,4 +67,10 @@ public class AddressDao {
 
 	}
 
+	public static void closeConnection() {
+
+		entityManager.close();
+
+	}
+
 }

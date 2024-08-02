@@ -558,6 +558,10 @@ public class EMS_Controller {
 
 				System.out.println("\nThank You...!");
 				scanner.close();
+				EmployeeDao.closeConnection();
+				AddressDao.closeConnection();
+				DepartmentDao.closeConnection();
+				ProjectDao.closeConnection();
 				System.exit(1);
 			}
 				break;
